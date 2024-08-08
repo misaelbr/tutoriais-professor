@@ -42,8 +42,9 @@ button {
   font-size: 1rem;
 }
 
+
 header {
-  background: var(--bg-white-global);
+  background: var(--bg-blue-light-global);
 }
 
 #container {
@@ -151,7 +152,7 @@ header {
   width: 100%;
   text-align: left;
   color: var(--gray-600);
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   padding-top: 0.9rem;
   margin-bottom: 0.5rem;
@@ -159,7 +160,7 @@ header {
 
 .description p {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
   color: var(--gray-400);
   margin-bottom: 0.5rem;
@@ -304,7 +305,7 @@ footer {
 
 #contacts {
   padding: 2rem 1rem;
-  margin: 0 0 0 -4.89rem;
+  margin: 0 0 0 -2rem;
   text-align: right;
   border-right: 2px solid var(--white);
 }
