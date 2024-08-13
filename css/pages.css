@@ -301,10 +301,17 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 2rem 0;
+  width: 100%;
+}
+
+#contacts, #logo {
+  flex-basis: 50%; 
+  flex-grow: 1;
+  box-sizing: border-box;
 }
 
 #contacts {
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
   text-align: right;
   border-right: 2px solid var(--white);
 }
@@ -331,7 +338,6 @@ footer {
   height: 3rem;
   width: auto;
 }
-
 @media only screen and (max-width: 1020px) {
   #cards {
     flex-direction: column;
