@@ -269,8 +269,7 @@ footer {
 }
 
 #contacts {
-  padding: 2rem 1rem;
-  margin: 0 0 0 -2rem;
+  padding: 2rem 2rem;
   text-align: right;
   border-right: 2px solid var(--white);
 }
@@ -289,6 +288,7 @@ footer {
 }
 #logo {
   padding-left: 1rem;
+
 }
 
 #logo img {
